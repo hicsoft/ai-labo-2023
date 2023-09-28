@@ -6,7 +6,7 @@ llm = AutoModelForCausalLM.from_pretrained(
     temperature=0.7,
     context_length=1024,
     max_new_tokens=512,
-    batch_size=1,
+    batch_size=8,
     gpu_layers=100
 )
 
